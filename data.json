@@ -1,0 +1,707 @@
+[
+  {
+    "name": "7-Zip",
+    "source": [
+    "https://github.com/mcmilk/7-Zip-zstd/releases",
+    "https://www.7-zip.org/"
+  ],
+    "logo": "images/7-zip.png",
+    "description": "7-Zip 是一款免费开源的文件压缩工具，以高压缩率著称，支持 7z, ZIP, RAR 等格式。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "x64": "https://www.7-zip.org/a/7z2409-x64.exe", "x86": "https://www.7-zip.org/a/7z2600.exe", "arm64": "https://www.7-zip.org/a/7z2600-arm64.exe" }
+      },
+      "macos": {
+        "links": { "universal": "https://www.7-zip.org/a/7z2600-mac.tar.xz"}
+      },
+      "linux": {
+        "links": { "x64": "https://www.7-zip.org/a/7z2600-linux-x64.tar.xz", "x86": "https://www.7-zip.org/a/7z2600-linux-x86.tar.xz", "arm64": "https://www.7-zip.org/a/7z2600-linux-arm64.tar.xz", "arm32": "https://www.7-zip.org/a/7z2600-linux-arm.tar.xz"}
+      }
+    }
+  },
+  {
+    "name": "APNG Assembler",
+    "source": "https://github.com/apngasm/apngasm/releases",
+    "logo": "images/APNG Assembler.png",
+    "description": "将多张PNG合成为APNG动图的工具，支持高质量透明动画，完全开源免费。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "x64": "https://github.com/apngasm/apngasm/releases/download/3.1.1/apngasm_3.1-0_AMD64.exe" }
+      },
+      "macos": {
+        "links": { "universal": "https://github.com/apngasm/apngasm/releases/download/3.1.1/apngasm_3.1-0_i386.dmg" }
+      }
+    }
+  },
+  {
+    "name": "Arduino IDE",
+    "source": [
+        "https://github.com/arduino/arduino-ide/releases",
+        "https://www.arduino.cc/en/software"
+    ],
+    "logo": "images/Arduino IDE.png",
+    "description": "开源微控制器编程环境，支持代码编写、调试及上传至开发板，适合初学者。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "universal": "https://github.com/arduino/arduino-ide/releases/download/2.3.8/arduino-ide_2.3.8_Windows_64bit.exe"}
+      },
+      "macos": {
+        "links": { "intel": "https://github.com/arduino/arduino-ide/releases/download/2.3.8/arduino-ide_2.3.8_macOS_64bit.dmg", "apple_silicon": "https://github.com/arduino/arduino-ide/releases/download/2.3.8/arduino-ide_2.3.8_macOS_arm64.dmg" }
+      },
+      "linux": {
+        "links": { "x64": "https://github.com/arduino/arduino-ide/releases/download/2.3.8/arduino-ide_2.3.8_Linux_64bit.AppImage"}
+      }
+    }
+  },
+  {
+    "name": "Audacity",
+    "source": "https://github.com/audacity/audacity/releases",
+    "logo": "images/Audacity.png",
+    "description": "免费、开源的多轨音频编辑和录制软件，支持多种插件和音频处理效果。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "x64": "https://github.com/audacity/audacity/releases/download/Audacity-3.4.2/audacity-win-3.4.2-64bit.exe", "x86": "https://github.com/audacity/audacity/releases/download/Audacity-3.4.2/audacity-win-3.4.2-32bit.exe" }
+      },
+      "macos": {
+        "links": { "universal": "https://github.com/audacity/audacity/releases/download/Audacity-3.4.2/audacity-macOS-3.4.2-universal.dmg","intel":"https://github.com/audacity/audacity/releases/download/Audacity-3.4.2/audacity-macOS-3.4.2-x86_64.dmg", "apple_silicon":"https://github.com/audacity/audacity/releases/download/Audacity-3.4.2/audacity-macOS-3.4.2-arm64.dmg" }
+      },
+      "linux": {
+        "links": { "x64": "https://github.com/audacity/audacity/releases/download/Audacity-3.4.2/audacity-linux-3.4.2-x64.AppImage" }
+      }
+    }
+  },
+  {
+    "name": "BalenaEtcher",
+    "source": "https://github.com/balena-io/etcher/releases/",
+    "logo": "images/BalenaEtcher.png",
+    "description": "BalenaEtcher 是一款跨平台的开源工具，用来把操作系统镜像文件（比如 .iso、.img）写入到可启动的 USB 闪存盘或 SD 卡。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "x64": "https://github.com/balena-io/etcher/releases/download/v2.1.4/balenaEtcher-win32-x64-2.1.4.zip"}
+      },
+      "macos":{
+        "links":{"intel":"https://github.com/balena-io/etcher/releases/download/v2.1.4/balenaEtcher-2.1.4-x64.dmg","apple_silicon":"https://github.com/balena-io/etcher/releases/download/v2.1.4/balenaEtcher-2.1.4-arm64.dmg"}
+      },
+      "linux":{
+        "links":{"arm64":"https://github.com/balena-io/etcher/releases/download/v2.1.4/balena-etcher_2.1.4_amd64.deb","x64":"https://github.com/balena-io/etcher/releases/download/v2.1.4/balenaEtcher-linux-x64-2.1.4.zip"}
+      }
+    }
+  },
+  {
+    "name": "Bulk Crap Uninstaller",
+    "source": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases",
+    "logo": "images/Bulk Crap Uninstaller.png",
+    "description": "Bulk Crap Uninstaller 是一款 开源、免费的 Windows 卸载管理工具，用于批量卸载软件、清理残留文件和注册表，比系统自带卸载器更彻底，支持静默卸载和强制删除。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "x64": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v6.0/BCUninstaller_6.0.0_portable-x64.zip"}
+      }
+    }
+  },
+  {
+    "name": "Bitwarden",
+    "source": [
+        "https://github.com/bitwarden/clients/releases",
+        "https://github.com/bitwarden/android/releases"
+    ],
+    "logo": "images/Bitwarden.png",
+    "description": "Bitwarden 是一款开源的密码管理器，可以帮助你安全地存储、生成和管理密码、密钥及其他敏感信息。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "universal": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.1.1/Bitwarden-Portable-2026.1.1.exe"}
+      },
+      "macos": {
+        "links": {"universal": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.1.1/Bitwarden-2026.1.1-universal.dmg" }
+      },
+      "ios": {
+        "links": {"ios":"https://apps.apple.com/us/app/bitwarden-password-manager/id1137397744"}
+      },
+      "android": {
+        "links":{"universal":"https://github.com/bitwarden/android/releases/download/v2026.2.0-bwpm/com.x8bit.bitwarden-fdroid.apk"}
+      },
+      "linux": {
+        "links": { "x64": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.1.1/Bitwarden-2026.1.1-amd64.deb"}
+      }
+    }
+  },
+  {
+    "name": "Blender",
+    "source": [
+        "https://www.blender.org/download",
+        "https://download.blender.org/release"
+    ],
+    "logo": "images/Blender.png",
+    "description": "Blender 是一款免费的开源 3D 创建软件，广泛用于 3D 建模、动画、渲染、雕刻、视频编辑、视觉效果、游戏开发等多种任务。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "x64": "https://download.blender.org/release/Blender4.4/blender-4.4.0-windows-x64.msi","arm64":"https://download.blender.org/release/Blender4.4/blender-4.4.0-windows-arm64.msi"}
+      },
+      "macos": {
+        "links": { "intel": "https://download.blender.org/release/Blender4.4/blender-4.4.0-macos-x64.dmg", "apple_silicon": "https://download.blender.org/release/Blender4.4/blender-4.4.0-macos-arm64.dmg" }
+      },
+      "linux": {
+        "links": { "x64": "https://download.blender.org/release/Blender4.4/blender-4.4.0-linux-x64.tar.xz"}
+      }
+    }
+  },
+  {
+    "name": "Caesium Image Compressor",
+    "source": [
+        "https://github.com/Lymphatus/caesium-image-compressor/releases",
+        "https://saerasoft.com/caesium/#downloads"
+    ],
+    "logo": "images/Caesium Image Compressor.png",
+    "description": "Caesium Image Compressor 是一款开源免费的图像压缩工具，专门用于减少图像文件的大小，同时尽可能保持较高的图像质量。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "universal": "https://github.com/Lymphatus/caesium-image-compressor/releases/download/v2.8.5/caesium-image-compressor-2.8.5-win-setup.exe"}
+      },
+      "macos": {
+        "links": { "universal": "https://github.com/Lymphatus/caesium-image-compressor/releases/download/v2.8.5/caesium-image-compressor-2.8.5-macos.dmg"}
+      }
+    }
+  },
+   {
+    "name": "Clipy",
+    "source": "https://github.com/Clipy/Clipy/releases/",
+    "logo": "images/Clipy.png",
+    "description": "Clipy是一个免费的开源剪贴板管理工具，允许你管理历史剪贴板内容。",
+    "platforms": {
+      "macos": {
+        "links": { "universal": "https://github.com/Clipy/Clipy/releases/download/1.2.1/Clipy_1.2.1.dmg"}
+      }
+    }
+  },
+  {
+    "name": "Deluge",
+    "source": "https://ftp.osuosl.org/pub/deluge",
+    "logo": "images/Deluge.png",
+    "description": "Deluge 是一款轻量级且功能强大的开源 BitTorrent 客户端，专门用于下载和上传种子文件。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "x64":"https://ftp.osuosl.org/pub/deluge/windows/deluge-2.1.1-win64-setup.exe", "x86": "https://ftp.osuosl.org/pub/deluge/windows/deluge-2.1.1-win32-setup.exe"}
+      },
+      "macos": {
+        "links": { "intel x64": "https://ftp.osuosl.org/pub/deluge/mac_osx/deluge-1.3.12-osx-x64-inst.dmg","intel x86":"https://ftp.osuosl.org/pub/deluge/mac_osx/deluge-1.3.11-osx-x86.tbz2"}
+      },
+       "android": {
+        "links":{"universal":"https://f-droid.org/repo/org.deluge.trireme_27.apk"}
+      }
+    }
+  },
+   {
+    "name": "Driver Store Explorer",
+    "source": "https://github.com/lostindark/DriverStoreExplorer/releases",
+    "logo": "images/Driver Store Explorer.png",
+    "description": "Driver Store Explorer (RAPR) 是一个 Windows 系统下的工具，用于管理和维护驱动程序库（Driver Store）。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "universal":"https://github.com/lostindark/DriverStoreExplorer/releases/download/v0.12.64/DriverStoreExplorer.v0.12.64.zip"}
+      }
+    }
+  },
+    {
+    "name": "Everything",
+    "source": "https://www.voidtools.com/en-au/downloads",
+    "logo": "images/Everything.png",
+    "description": "Everything 是一款 Windows 操作系统上的高效文件搜索工具，它通过索引系统中的所有文件和文件夹，提供极其快速和精确的搜索功能。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "x64":"https://www.voidtools.com/Everything-1.4.1.1032.x64-Setup.exe","x86":"https://www.voidtools.com/Everything-1.4.1.1026.x86-Setup.exe","arm32":"https://www.voidtools.com/Everything-1.4.1.1032.ARM.zip","arm64":"https://www.voidtools.com/Everything-1.4.1.1032.ARM64.zip"}
+      }
+    }
+  },
+   {
+    "name": "Firefox",
+    "source": "https://archive.mozilla.org/pub/",
+    "logo": "images/Firefox.png",
+    "description": "Firefox 是一款由 Mozilla 基金会开发的开源网页浏览器。它以速度、隐私保护以及用户自定义的高度可扩展性而闻名。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "x64":"https://archive.mozilla.org/pub/firefox/releases/99.0b8/win64/en-US/Firefox%20Setup%2099.0b8.exe","x86":"https://archive.mozilla.org/pub/firefox/releases/99.0b8/win32/en-US/Firefox%20Installer.exe","arm64":"https://archive.mozilla.org/pub/firefox/releases/99.0b8/win64-aarch64/en-US/Firefox%20Setup%2099.0b8.exe"}
+      },
+      "macos":{
+        "links":{"universal":"https://archive.mozilla.org/pub/firefox/releases/99.0b8/mac/en-US/Firefox%2099.0b8.dmg"}
+      },
+      "linux":{
+        "links":{"x64":"https://archive.mozilla.org/pub/firefox/releases/99.0b8/linux-x86_64/en-US/firefox-99.0b8.tar.bz2","x86":"https://archive.mozilla.org/pub/firefox/releases/99.0b8/linux-i686/en-US/firefox-99.0b8.tar.bz2"}
+      },
+      "android":{
+        "links":{"universal":"https://archive.mozilla.org/pub/fenix/releases/149.0b4/android/fenix-149.0b4-android/fenix-149.0b4.multi.android-universal.apk","x64":"https://archive.mozilla.org/pub/fenix/releases/149.0b4/android/fenix-149.0b4-android-x86_64/fenix-149.0b4.multi.android-x86_64.apk","arm64":"https://archive.mozilla.org/pub/fenix/releases/149.0b4/android/fenix-149.0b4-android-arm64-v8a/fenix-149.0b4.multi.android-arm64-v8a.apk","arm32":"https://archive.mozilla.org/pub/fenix/releases/149.0b4/android/fenix-149.0b4-android-armeabi-v7a/fenix-149.0b4.multi.android-armeabi-v7a.apk"}
+      },
+      "ios":{
+        "links":{"ios":"https://apps.apple.com/us/app/firefox-private-web-browser/id989804926"}
+      }
+    }
+  },
+  {
+    "name": "FreeCAD",
+    "source": [
+        "https://github.com/FreeCAD/FreeCAD/releases",
+        "https://www.freecad.org/downloads.php"
+    ],
+    "logo": "images/FreeCAD.png",
+    "description": "FreeCAD 是一款免费的开源 3D CAD（计算机辅助设计）建模软件。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "x64":"https://github.com/FreeCAD/FreeCAD/releases/download/1.1rc3/FreeCAD_1.1rc3-Windows-x86_64-py311-installer.exe"}
+      },
+      "macos":{
+        "links":{"intel":"https://github.com/FreeCAD/FreeCAD/releases/download/1.1rc3/FreeCAD_1.1rc3-macOS-x86_64-py311.dmg","apple_silicon":"https://github.com/FreeCAD/FreeCAD/releases/download/1.1rc3/FreeCAD_1.1rc3-macOS-arm64-py311.dmg"}
+      },
+      "linux":{
+        "links":{"x64":"https://github.com/FreeCAD/FreeCAD/releases/download/1.1rc3/FreeCAD_1.1rc3-Linux-x86_64-py311.AppImage","arm64":"https://github.com/FreeCAD/FreeCAD/releases/download/1.1rc3/FreeCAD_1.1rc3-Linux-aarch64-py311.AppImage"}
+      }
+    }
+  },
+  {
+    "name": "GIMP",
+    "source": "https://download.gimp.org/gimp",
+    "logo": "images/GIMP.png",
+    "description": "GIMP 是一款免费的开源图像编辑软件，广泛用于图像处理、照片修饰、绘画、合成等多种任务。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "universal":"https://download.gimp.org/gimp/v3.0/windows/gimp-3.0.2-setup-1.exe"}
+      },
+      "macos":{
+        "links":{"intel":"https://download.gimp.org/gimp/v3.0/macos/gimp-3.0.2-x86_64.dmg","apple_silicon":"https://download.gimp.org/gimp/v3.0/macos/gimp-3.0.2-arm64.dmg"}
+      },
+      "linux":{
+        "links":{"x64":"https://download.gimp.org/gimp/v3.0/linux/GIMP-3.0.2-x86_64.AppImage","arm64":"https://download.gimp.org/gimp/v3.0/linux/GIMP-3.0.2-aarch64.AppImage"}
+      }
+    }
+  },
+  {
+    "name": "Godot",
+    "source": [
+        "https://github.com/godotengine/godot/releases",
+        "https://godotengine.org/"
+    ],
+    "logo": "images/Godot.png",
+    "description": "Godot 是一个开源的游戏引擎，用来制作游戏或者交互式应用。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "x64":"https://github.com/godotengine/godot/releases/download/4.6.1-stable/Godot_v4.6.1-stable_win64.exe.zip","x86":"https://github.com/godotengine/godot/releases/download/4.6.1-stable/Godot_v4.6.1-stable_win32.exe.zip","arm64":"https://github.com/godotengine/godot/releases/download/4.6.1-stable/Godot_v4.6.1-stable_windows_arm64.exe.zip"}
+      },
+      "macos":{
+        "links":{"universal":"https://github.com/godotengine/godot/releases/download/4.6.1-stable/Godot_v4.6.1-stable_macos.universal.zip"}
+      },
+      "linux":{
+        "links":{"x64":"https://github.com/godotengine/godot/releases/download/4.6.1-stable/Godot_v4.6.1-stable_linux.x86_64.zip","x86":"https://github.com/godotengine/godot/releases/download/4.6.1-stable/Godot_v4.6.1-stable_linux.x86_32.zip","arm64":"https://github.com/godotengine/godot/releases/download/4.6.1-stable/Godot_v4.6.1-stable_linux.arm64.zip","arm32":"https://github.com/godotengine/godot/releases/download/4.6.1-stable/Godot_v4.6.1-stable_linux.arm32.zip"}
+      },
+      "android":{
+        "links":{"universal":"https://github.com/godotengine/godot/releases/download/4.6.1-stable/Godot_v4.6.1-stable_android_editor.apk"}
+      }
+    }
+  },
+  {
+    "name": "GQRX",
+    "source": "https://github.com/gqrx-sdr/gqrx/releases",
+    "logo": "images/GQRX.png",
+    "description": "GQRX 是一款跨平台的开源软件无线电接收器，可配合 RTL-SDR 等硬件使用，支持频谱显示、瀑布图和多种调制方式收听，常用于学习、实验和探索无线电信号。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "universal":"https://github.com/gqrx-sdr/gqrx/releases/download/v2.17.7/Gqrx-2.17.7-Windows.zip"}
+      },
+      "macos":{
+        "links":{"intel":"https://github.com/gqrx-sdr/gqrx/releases/download/v2.17.7/Gqrx-2.17.7-x86_64.dmg","apple_silicon":"https://github.com/gqrx-sdr/gqrx/releases/download/v2.17.7/Gqrx-2.17.7-arm64.dmg"}
+      },
+      "linux":{
+        "links":{"x64":"https://github.com/gqrx-sdr/gqrx/releases/download/v2.17.7/Gqrx-2.17.7-x86_64.AppImage"}
+      }
+    }
+  },
+  {
+    "name": "HandBrake",
+    "source": [
+        "https://github.com/HandBrake/HandBrake/releases",
+        "https://handbrake.fr/downloads.php"
+    ],
+    "logo": "images/HandBrake.png",
+    "description": "HandBrake 是一款开源的视频转码软件，用于将视频文件从一种格式转换为另一种格式。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "x64":"https://github.com/HandBrake/HandBrake/releases/download/1.10.2/HandBrake-1.10.2-x86_64-Win_GUI.exe","arm64":"https://github.com/HandBrake/HandBrake/releases/download/1.10.2/HandBrake-1.10.2-arm64-Win_GUI.exe"}
+      },
+      "macos":{
+        "links":{"universal":"https://github.com/HandBrake/HandBrake/releases/download/1.10.2/HandBrake-1.10.2.dmg"}
+      }
+    }
+  },
+  {
+    "name": "Hex Fiend",
+    "source": "https://github.com/HexFiend/HexFiend/releases",
+    "logo": "images/Hex Fiend.png",
+    "description": "Hex Fiend 是一款开源免费的 macOS 十六进制编辑器，专注于快速处理大文件，常用于系统镜像修改、固件调试、逆向分析等底层数据编辑场景。",
+    "platforms": {
+      "macos":{
+        "links":{"universal":"https://github.com/HexFiend/HexFiend/releases/download/v2.18.1/Hex_Fiend_2.18.1.dmg"}
+      }
+    }
+  },
+  {
+    "name": "Hiddify",
+    "source": [
+        "https://github.com/hiddify/hiddify-app/releases",
+        "https://hiddify.com"
+    ],
+    "logo": "images/Hiddify.png",
+    "description": "Hiddify是一款开源、免费、跨平台的翻墙代理工具，主要用于绕过网络封锁，实现自由、安全的互联网访问。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "universal":"https://github.com/hiddify/hiddify-app/releases/download/v4.1.0/Hiddify-Windows-Setup-x64.exe"}
+      },
+      "macos":{
+        "links":{"universal":"https://github.com/hiddify/hiddify-app/releases/download/v4.1.0/Hiddify-MacOS.dmg"}
+      },
+      "linux":{
+        "links":{"x64":"https://github.com/hiddify/hiddify-app/releases/download/v4.1.0/Hiddify-Linux-x64-AppImage.AppImage"}
+      },
+      "android":{
+        "links":{"universal":"https://github.com/hiddify/hiddify-app/releases/download/v4.1.0/Hiddify-Android-universal.apk","arm64":"https://github.com/hiddify/hiddify-app/releases/download/v4.1.0/Hiddify-Android-arm64.apk","arm32":"https://github.com/hiddify/hiddify-app/releases/download/v4.1.0/Hiddify-Android-arm7.apk","x64":"https://github.com/hiddify/hiddify-app/releases/download/v4.1.0/Hiddify-Android-x86_64.apk"}
+      }
+    }
+  },
+   {
+    "name": "Inkscape",
+    "source": "https://inkscape.org/release/dev/platforms",
+    "logo": "images/Inkscape.png",
+    "description": "Inkscape 是一款免费的开源矢量图形编辑软件，用于创建和编辑矢量图像。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "x64":"https://inkscape.org/gallery/item/55865/inkscape-1.4.1_2025-03-31_cac3661-x64.exe"}
+      },
+      "macos":{
+        "links":{"intel":"https://inkscape.org/gallery/item/56347/Inkscape-1.4.230579_x86_64.dmg","apple_silicon":"https://inkscape.org/gallery/item/53562/Inkscape-1.4.0-rc128712_arm64.dmg"}
+      },
+      "linux":{
+        "links":{"x64":"https://inkscape.org/gallery/item/58919/Inkscape-0d15f75-x86_64.AppImage"}
+      }
+    }
+  },
+  {
+    "name": "Kdenlive",
+    "source": "https://kdenlive.org/download/",
+    "logo": "images/Kdenlive.png",
+    "description": "Kdenlive 是一款开源且功能强大的视频编辑软件，主要用于视频剪辑、后期制作和创意编辑。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "universal":"https://download.kde.org/stable/kdenlive/25.12/windows/kdenlive-25.12.2.exe"}
+      },
+      "macos":{
+        "links":{"intel":"https://download.kde.org/stable/kdenlive/25.12/macOS/kdenlive-25.12.2-x86_64.dmg","apple_silicon":"https://download.kde.org/stable/kdenlive/25.12/macOS/kdenlive-25.12.2-arm64.dmg"}
+      },
+      "linux":{
+        "links":{"x64":"https://download.kde.org/stable/kdenlive/25.12/linux/kdenlive-25.12.2-x86_64.AppImage"}
+      }
+    }
+  },
+  {
+    "name": "LocalSend",
+    "source": [
+        "https://github.com/localsend/localsend/releases",
+        "https://localsend.org/download"
+    ],
+    "logo": "images/LocalSend.png",
+    "description": "​LocalSend 是一款免费的开源文件传输工具，专为在同一局域网内实现高效、安全的数据传输而设计。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "x64":"https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-windows-x86-64.exe"}
+      },
+      "macos":{
+        "links":{"universal":"https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0.dmg"}
+      },
+      "linux":{
+        "links":{"x64":"https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-linux-x86-64.AppImage","arm64":"https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-linux-arm-64.tar.gz"}
+      },
+      "android":{
+        "links":{"universal":"https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-android-google-play.apk","arm64":"https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-android-arm64v8.apk","arm32":"https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-android-arm32v7.apk","x64":"https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-android-x64.apk"}
+      },
+      "ios":{
+        "links":{"ios":"https://apps.apple.com/us/app/localsend/id1661733229"}
+      }
+    }
+  },
+  {
+    "name": "MSYS2",
+    "source": [
+        "https://github.com/msys2/msys2-installer/releases",
+        "https://www.msys2.org"
+    ],
+    "logo": "images/MSYS2.png",
+    "description": "MSYS2 是一个在 Windows 上提供类 Linux 环境的开源平台，内含 bash、make、git 等工具，并集成 MinGW-w64 编译器与 pacman 包管理器，可方便地安装和更新开发组件，适合跨平台与原生程序开发。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "x64":"https://github.com/msys2/msys2-installer/releases/download/2025-12-13/msys2-x86_64-20251213.exe","arm64":"https://github.com/msys2/msys2-installer/releases/download/2025-12-13/msys2-arm64-20251213.exe"}
+      }
+    }
+  },
+  {
+    "name": "Nomacs",
+    "source": [
+        "https://github.com/nomacs/nomacs/releases",
+        "https://nomacs.org/docs/getting-started/installation/"
+    ],
+    "logo": "images/Nomacs.png",
+    "description": "Nomacs 是一款免费的开源图片查看器。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "x64":"https://github.com/nomacs/nomacs/releases/download/3.22.0/nomacs-setup-x64.msi"}
+      },
+      "macos":{
+        "links":{"intel":"https://github.com/nomacs/nomacs/releases/download/3.22.0/nomacs-3.22.0-macOS-x86_64.zip","apple_silicon":"https://github.com/nomacs/nomacs/releases/download/3.22.0/nomacs-3.22.0-macOS-arm64.zip"}
+      },
+      "linux":{
+        "links":{"x64":"https://github.com/nomacs/nomacs/releases/download/3.22.0/nomacs-3.22.0-linux-22.04-x86_64-AppImage.zip"}
+      }
+    }
+  },
+  {
+    "name": "OBS Studio",
+    "source": [
+        "https://github.com/obsproject/obs-studio/releases",
+        "https://obsproject.com/"
+    ],
+    "logo": "images/OBS Studio.png",
+    "description": "OBS Studio 是一款开源且免费的直播和录屏软件，广泛用于视频流媒体制作、直播、屏幕录制、视频录制等。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "x64":"https://github.com/obsproject/obs-studio/releases/download/32.1.0-rc3/OBS-Studio-32.1.0-rc3-Windows-x64-Installer.exe","arm64":"https://github.com/obsproject/obs-studio/releases/download/32.1.0-rc3/OBS-Studio-32.1.0-rc3-Windows-arm64.zip"}
+      },
+      "macos":{
+        "links":{"intel":"https://github.com/obsproject/obs-studio/releases/download/32.1.0-rc3/OBS-Studio-32.1.0-rc3-macOS-Intel.dmg","apple_silicon":"https://github.com/obsproject/obs-studio/releases/download/32.1.0-rc3/OBS-Studio-32.1.0-rc3-macOS-Apple.dmg"}
+      },
+      "linux":{
+        "supported_versions": ["Ubuntu"],
+        "links":{"x64":"https://github.com/obsproject/obs-studio/releases/download/32.1.0-rc3/OBS-Studio-32.1.0-rc3-Ubuntu-24.04-x86_64.deb"}
+      }
+    }
+  },
+  {
+    "name": "Okular",
+    "source": "https://okular.kde.org/download/",
+    "logo": "images/Okular.png",
+    "description": "Okular 是 KDE 社区开发的跨平台文档阅读器，支持 PDF、EPUB、DJVU 等多种格式。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "x64":"https://cdn.kde.org/ci-builds/graphics/okular/master/windows/okular-master-7087-windows-cl-msvc2022-x86_64.exe"}
+      },
+      "macos":{
+        "links":{"intel":"https://cdn.kde.org/ci-builds/graphics/okular/master/macos-x86_64/okular-master-7217-macos-clang-x86_64.dmg","apple_silicon":"https://cdn.kde.org/ci-builds/graphics/okular/master/macos-arm64/okular-master-7217-macos-clang-arm64.dmg"}
+      }
+    }
+  },
+  {
+    "name": "OpenBoard",
+    "source": [
+        "https://github.com/OpenBoard-org/OpenBoard/releases",
+        "https://openboard.ch/download.en.html"
+    ],
+    "logo": "images/OpenBoard.png",
+    "description": "OpenBoard 是一款开源免费的交互式电子白板软件，主要用于教育和教学环境。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "universal":"https://github.com/OpenBoard-org/OpenBoard/releases/download/v1.7.6/OpenBoard_Installer_1.7.6.exe"}
+      },
+      "macos":{
+        "links":{"universal":"https://github.com/OpenBoard-org/OpenBoard/releases/download/v1.7.6/openboard_debian_12_1.7.6_amd64.deb"}
+      },
+      "linux":{
+        "links":{"x64":"https://github.com/OpenBoard-org/OpenBoard/releases/download/v1.7.6/openboard_debian_12_1.7.6_amd64.deb"}
+      }
+    }
+  },
+  {
+    "name": "PrusaSlicer",
+    "source":"https://github.com/prusa3d/PrusaSlicer/releases",
+    "logo": "images/PrusaSlicer.png",
+    "description": "PrusaSlicer 是一款由 Prusa Research 开发的开源免费 3D 打印切片软件。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "universal":"https://cdn.prusa3d.com/downloads/drivers/prusa3d_win_2_6_0.exe"}
+      },
+      "macos":{
+        "links":{"universal":"https://cdn.prusa3d.com/downloads/drivers/prusa3d_mac_2_9_2.dmg"}
+      },
+      "linux":{
+        "links":{"x64":"https://github.com/prusa3d/PrusaSlicer/releases/download/version_2.8.1/PrusaSlicer-2.8.1+linux-x64-older-distros-GTK3-202409181354.AppImage"}
+      }
+    }
+  },
+  {
+    "name": "Ren'Py",
+    "source":"https://www.renpy.org/latest.html",
+    "logo": "images/Ren'Py.png",
+    "description": "Ren'Py 是一个用于制作视觉小说和互动剧情游戏的引擎。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "universal":"https://www.renpy.org/dl/8.5.0/renpy-8.5.0-sdk.7z.exe"}
+      },
+      "macos":{
+        "links":{"universal":"https://www.renpy.org/dl/8.5.2/renpy-8.5.2-sdk.dmg"}
+      },
+      "linux":{
+        "links":{"universal":"https://www.renpy.org/dl/8.5.2/renpy-8.5.2-sdk.tar.bz2", "arm64":"https://www.renpy.org/dl/8.5.2/renpy-8.5.2-sdkarm.tar.bz2"}
+      }
+    }
+  },
+  {
+    "name": "Rufus",
+    "source":"https://github.com/pbatard/rufus/releases/",
+    "logo": "images/Rufus.png",
+    "description": "Rufus 是一款免费的、开源的工具，用于创建可启动的 USB 驱动器。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "universal":"https://github.com/pbatard/rufus/releases/download/v4.13/rufus-4.13.exe","x86":"https://github.com/pbatard/rufus/releases/download/v4.13/rufus-4.13_x86.exe","arm64":"https://github.com/pbatard/rufus/releases/download/v4.13/rufus-4.13_arm64.exe"}
+      }
+    }
+  },
+  {
+    "name": "Scrcpy",
+    "source":"https://github.com/Genymobile/scrcpy/releases/",
+    "logo": "images/Scrcpy.png",
+    "description": "Scrcpy 是一款开源免费工具，用于在电脑上显示和控制 Android 设备的屏幕。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "x64":"https://github.com/Genymobile/scrcpy/releases/download/v3.3.4/scrcpy-win64-v3.3.4.zip","x86":"https://github.com/Genymobile/scrcpy/releases/download/v3.3.4/scrcpy-win32-v3.3.4.zip"}
+      },
+      "macos":{
+        "links":{"intel":"https://github.com/Genymobile/scrcpy/releases/download/v3.3.4/scrcpy-macos-x86_64-v3.3.4.tar.gz","apple_silicon":"https://github.com/Genymobile/scrcpy/releases/download/v3.3.4/scrcpy-macos-aarch64-v3.3.4.tar.gz"}
+      },
+      "linux":{
+        "links":{"x64":"https://github.com/Genymobile/scrcpy/releases/download/v3.3.4/scrcpy-linux-x86_64-v3.3.4.tar.gz"}
+      }
+    }
+  },
+  {
+    "name": "Sonic Pi",
+    "source":"https://sonic-pi.net/",
+    "logo": "images/Sonic Pi.png",
+    "description": "Sonic Pi 是一款开源的编程音频软件，旨在通过编程来创作音乐和声音。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "x64":"https://sonic-pi.net/files/releases/v4.6.0/Sonic-Pi-for-Win-x64-v4-6-0.msi"}
+      },
+      "macos":{
+        "links":{"intel":"https://sonic-pi.net/files/releases/v4.6.0/Sonic-Pi-for-Mac-x64-v4-6-0.dmg","apple_silicon":"https://sonic-pi.net/files/releases/v4.6.0/Sonic-Pi-for-Mac-arm64-v4-6-0.dmg"}
+      },
+      "linux":{
+        "supported_versions": ["Raspberry Pi OS"],
+        "links":{"arm64":"https://sonic-pi.net/files/releases/v4.5.1/sonic-pi_4.5.1_1_bookworm.arm64.deb"}
+      }
+    }
+  },
+  {
+    "name": "Thunderbird",
+    "source":"https://releases.mozilla.org/pub/thunderbird/releases/",
+    "logo": "images/Thunderbird.png",
+    "description": "Thunderbird 是一款由 Mozilla 基金会开发的 开源邮件客户端，用于管理电子邮件、新闻组、RSS 源等。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "x86":"https://releases.mozilla.org/pub/thunderbird/releases/99.0b2/win32/en-US/Thunderbird%20Setup%2099.0b2.exe","x64":"https://releases.mozilla.org/pub/thunderbird/releases/99.0b2/win64/en-US/Thunderbird%20Setup%2099.0b2.exe"}
+      },
+      "macos":{
+        "links":{"universal":"https://releases.mozilla.org/pub/thunderbird/releases/99.0b2/mac/en-US/Thunderbird%2099.0b2.dmg"}
+      },
+      "linux":{
+        "links":{"x64":"https://releases.mozilla.org/pub/thunderbird/releases/99.0b2/linux-x86_64/en-US/thunderbird-99.0b2.tar.bz2","x86":"https://releases.mozilla.org/pub/thunderbird/releases/99.0b2/linux-i686/en-US/thunderbird-99.0b2.tar.bz2"}
+      },
+      "android":{
+        "links":{"universal":"https://releases.mozilla.org/pub/thunderbird-mobile/android/releases/17.0b4/thunderbird-17.0b4.apk"}
+      }
+    }
+  },
+  {
+    "name": "VirtualBox",
+    "source":"https://download.virtualbox.org/virtualbox/",
+    "logo": "images/VirtualBox.png",
+    "description": "VirtualBox 是一款由 Oracle 开发的开源虚拟化软件，用于在一台计算机上创建和运行虚拟机。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "universal":"https://download.virtualbox.org/virtualbox/7.1.6/VirtualBox-7.1.6-167084-Win.exe"}
+      },
+      "macos":{
+        "links":{"intel":"https://download.virtualbox.org/virtualbox/7.1.6/VirtualBox-7.1.6-167084-OSX.dmg","apple_silicon":"https://download.virtualbox.org/virtualbox/7.1.6/VirtualBox-7.1.6-167084-macOSArm64.dmg"}
+      },
+      "linux":{
+        "links":{"x64":"https://download.virtualbox.org/virtualbox/7.1.6/VirtualBox-7.1.6-167084-Linux_amd64.run"}
+      }
+    }
+  },
+  {
+    "name": "Visual Studio Code",
+    "source":"https://code.visualstudio.com/",
+    "logo": "images/Visual Studio Code.png",
+    "description": "Visual Studio Code 是由 Microsoft 开发的一款免费、开源的轻量级源代码编辑器。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "x64":"https://update.code.visualstudio.com/1.87.2/win32-x64-user/stable","arm64":"https://update.code.visualstudio.com/latest/win32-arm64-user/stable"}
+      },
+      "macos":{
+        "links":{"intel":"https://update.code.visualstudio.com/latest/darwin/stable","apple_silicon":"https://update.code.visualstudio.com/latest/darwin-arm64/stable"}
+      },
+      "linux":{
+        "links":{"x64":"https://update.code.visualstudio.com/latest/linux-x64/stable","arm64":"https://update.code.visualstudio.com/latest/linux-arm64/stable"}
+      }
+    }
+  },
+  {
+    "name": "VLC media player",
+    "source":"https://download.videolan.org/pub/videolan/vlc/last/",
+    "logo": "images/VLC media player.png",
+    "description": "VLC Media Player 是一款开源的多功能媒体播放器，广泛用于播放各种音视频格式。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "x86":"https://download.videolan.org/pub/videolan/vlc/last/win32/vlc-3.0.23-win32.exe","x64":"https://download.videolan.org/pub/videolan/vlc/last/win64/vlc-3.0.23-win64.exe","arm64":"https://download.videolan.org/pub/videolan/vlc/last/winarm64/vlc-3.0.23-winarm64.exe"}
+      },
+      "macos":{
+        "links":{"intel":"https://download.videolan.org/pub/videolan/vlc/last/macosx/vlc-3.0.23-intel64.dmg","apple_silicon":"https://update.code.visualstudio.com/latest/darwin-arm64/stable"}
+      },
+      "linux":{
+        "links":{"universal":"https://download.videolan.org/pub/videolan/vlc/last/vlc-3.0.23.tar.xz"}
+      },
+      "android":{
+        "links":{"x64":"https://get.videolan.org/vlc-android/3.7.0/VLC-Android-3.7.0-x86_64.apk", "x86":"https://get.videolan.org/vlc-android/3.7.0/VLC-Android-3.7.0-x86.apk", "arm64":"https://get.videolan.org/vlc-android/3.7.0/VLC-Android-3.7.0-arm64-v8a.apk", "arm32":"https://get.videolan.org/vlc-android/3.7.0/VLC-Android-3.7.0-armeabi-v7a.apk"}
+      },
+      "ios":{
+        "links":{"ios":"https://apps.apple.com/us/app/vlc-media-player/id650377962"}
+      }
+    }
+  }
+]
