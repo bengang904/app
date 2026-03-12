@@ -644,6 +644,33 @@
       }
     }
   },
+   {
+    "name": "Tor Project",
+    "source": [
+        "https://www.torproject.org/download/",
+        "https://tor.eff.org/download/"
+    ],
+    "logo": "images/Tor Project.png",
+    "description": "Tor Project 是开发匿名通信网络 Tor 和 Tor Browser 的非营利组织，用多节点加密保护隐私与匿名。软件免费且开源。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": {"x64":"https://tor.eff.org/dist/torbrowser/15.0.7/tor-browser-windows-x86_64-portable-15.0.7.exe"}
+      },
+      "macos":{
+        "links":{"universal":"https://tor.eff.org/dist/torbrowser/15.0.7/tor-browser-macos-15.0.7.dmg"}
+      },
+      "linux":{
+        "links":{"x64":"https://tor.eff.org/dist/torbrowser/15.0.7/tor-browser-linux-x86_64-15.0.7.tar.xz"}
+      },
+      "android":{
+        "links":{"x86":"https://dist.torproject.org/torbrowser/15.0.7/tor-browser-android-x86-15.0.7.apk","x64":"https://dist.torproject.org/torbrowser/15.0.7/tor-browser-android-x86_64-15.0.7.apk","arm32":"https://dist.torproject.org/torbrowser/15.0.7/tor-browser-android-armv7-15.0.7.apk","arm64":"https://dist.torproject.org/torbrowser/15.0.7/tor-browser-android-aarch64-15.0.7.apk"}
+      },
+      "ios":{
+        "links":{"ios":"https://apps.apple.com/us/app/onion-browser/id519296448"}
+      }
+    }
+  },
   {
     "name": "VirtualBox",
     "source":"https://download.virtualbox.org/virtualbox/",
@@ -704,4 +731,5 @@
       }
     }
   }
+
 ]
