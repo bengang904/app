@@ -645,13 +645,13 @@
     }
   },
    {
-    "name": "Tor Project",
+    "name": "Tor Browser",
     "source": [
         "https://www.torproject.org/download/",
         "https://tor.eff.org/download/"
     ],
-    "logo": "images/Tor Project.png",
-    "description": "Tor Project 是开发匿名通信网络 Tor 和 Tor Browser 的非营利组织，用多节点加密保护隐私与匿名。软件免费且开源。",
+    "logo": "images/Tor Browser.png",
+    "description": "Tor Browser 是 Tor Project 开发的匿名浏览器，基于 Mozilla Firefox 修改，默认通过 Tor 网络访问互联网，用于隐藏 IP 和保护隐私，免费且开源。",
     "platforms": {
       "windows": {
         "supported_versions": ["10", "11"],
@@ -733,3 +733,4 @@
   }
 
 ]
+
