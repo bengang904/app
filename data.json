@@ -665,9 +665,6 @@
       },
       "android":{
         "links":{"x86":"https://dist.torproject.org/torbrowser/15.0.7/tor-browser-android-x86-15.0.7.apk","x64":"https://dist.torproject.org/torbrowser/15.0.7/tor-browser-android-x86_64-15.0.7.apk","arm32":"https://dist.torproject.org/torbrowser/15.0.7/tor-browser-android-armv7-15.0.7.apk","arm64":"https://dist.torproject.org/torbrowser/15.0.7/tor-browser-android-aarch64-15.0.7.apk"}
-      },
-      "ios":{
-        "links":{"ios":"https://apps.apple.com/us/app/onion-browser/id519296448"}
       }
     }
   },
@@ -733,4 +730,5 @@
   }
 
 ]
+
 
