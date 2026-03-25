@@ -368,16 +368,16 @@
     "platforms": {
       "windows": {
         "supported_versions": ["10", "11"],
-        "links": { "universal":"https://github.com/hiddify/hiddify-app/releases/download/v4.1.0/Hiddify-Windows-Setup-x64.exe"}
+        "links": { "x64":"https://github.com/hiddify/hiddify-app/releases/download/v4.1.1/Hiddify-Windows-Portable-x64.zip"}
       },
       "macos":{
-        "links":{"universal":"https://github.com/hiddify/hiddify-app/releases/download/v4.1.0/Hiddify-MacOS.dmg"}
+        "links":{"universal":"https://github.com/hiddify/hiddify-app/releases/download/v4.1.1/Hiddify-MacOS.dmg"}
       },
       "linux":{
-        "links":{"x64":"https://github.com/hiddify/hiddify-app/releases/download/v4.1.0/Hiddify-Linux-x64-AppImage.AppImage"}
+        "links":{"x64":"https://github.com/hiddify/hiddify-app/releases/download/v4.1.1/Hiddify-Linux-x64-AppImage.AppImage"}
       },
       "android":{
-        "links":{"universal":"https://github.com/hiddify/hiddify-app/releases/download/v4.1.0/Hiddify-Android-universal.apk","arm64":"https://github.com/hiddify/hiddify-app/releases/download/v4.1.0/Hiddify-Android-arm64.apk","arm32":"https://github.com/hiddify/hiddify-app/releases/download/v4.1.0/Hiddify-Android-arm7.apk","x64":"https://github.com/hiddify/hiddify-app/releases/download/v4.1.0/Hiddify-Android-x86_64.apk"}
+        "links":{"universal":"https://github.com/hiddify/hiddify-app/releases/download/v4.1.1/Hiddify-Android-universal.apk","arm64":"https://github.com/hiddify/hiddify-app/releases/download/v4.1.1/Hiddify-Android-arm64.apk","arm32":"https://github.com/hiddify/hiddify-app/releases/download/v4.1.1/Hiddify-Android-arm7.apk","x64":"https://github.com/hiddify/hiddify-app/releases/download/v4.1.1/Hiddify-Android-x86_64.apk"}
       }
     }
   },
