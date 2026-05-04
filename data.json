@@ -731,7 +731,7 @@
    {
     "name": "Windows New Menu Editor",
     "source":"https://github.com/osmanonurkoc/win_new_menu_editor/releases/",
-    "logo": "",
+    "logo": "images/null.png",
     "description": "Windows New Menu Editor 是一款专为 Windows 10 和 Windows 11 设计的开源、免费系统优化工具。该软件的核心功能是管理和清理文件资源管理器中“右键 -> 新建”菜单中的项目，解决因安装过多软件导致该菜单臃肿的问题。",
     "platforms": {
       "windows": {
