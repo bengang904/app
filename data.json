@@ -741,6 +741,21 @@
     }
   },
    {
+    "name": "Windows Memory Cleaner",
+    "source":[
+        "https://winmemorycleaner.com",
+        "https://github.com/IgorMundstein/WinMemoryCleaner/releases"
+    ],
+    "logo": "images/Windows Memory Cleaner.png",
+    "description": "Windows Memory Cleaner 是一款开源免费的轻量级 Windows 内存优化管理工具，专门通过调用 Windows 内部原生 API 来强制释放被系统和后台程序占用的物理内存、工作集以及备用缓存列表，从而在不重启电脑的情况下快速为大负荷任务腾出可用内存空间。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "universal":"https://github.com/IgorMundstein/WinMemoryCleaner/releases/download/3.0.8/WinMemoryCleaner.exe"}
+      }
+    }
+  },
+   {
     "name": "Windows New Menu Editor",
     "source":"https://github.com/osmanonurkoc/win_new_menu_editor/releases/",
     "logo": "images/null.png",
