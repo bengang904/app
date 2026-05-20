@@ -418,6 +418,27 @@
     }
   },
   {
+    "name": "LibreOffice",
+    "source": [
+        "https://downloadarchive.documentfoundation.org/libreoffice/old/",
+        "https://www.libreoffice.org/download/"
+    ],
+    "logo": "images/LibreOffice.png",
+    "description": "LibreOffice是一款开源免费的办公套件，由文档基金会维护和开发。旨在为全球用户提供无广告、无隐私追踪、完全自由的专业办公体验，广泛应用于个人、企业以及公共行政机构。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "x64":"https://download.documentfoundation.org/libreoffice/stable/26.2.3/win/x86_64/LibreOffice_26.2.3_Win_x86-64.msi","arm64":"https://download.documentfoundation.org/libreoffice/stable/26.2.3/win/aarch64/LibreOffice_26.2.3_Win_aarch64.msi"}
+      },
+      "macos":{
+        "links":{"intel":"https://download.documentfoundation.org/libreoffice/stable/26.2.3/mac/x86_64/LibreOffice_26.2.3_MacOS_x86-64.dmg","apple_silicon":"https://download.documentfoundation.org/libreoffice/stable/26.2.3/mac/aarch64/LibreOffice_26.2.3_MacOS_aarch64.dmg"}
+      },
+      "linux":{
+        "links":{"x64":"https://download.documentfoundation.org/libreoffice/stable/26.2.3/rpm/x86_64/LibreOffice_26.2.3_Linux_x86-64_rpm.tar.gz","arm64":"https://download.documentfoundation.org/libreoffice/stable/26.2.3/rpm/aarch64/LibreOffice_26.2.3_Linux_aarch64_rpm.tar.gz"}
+      }
+    }
+  },
+  {
     "name": "LocalSend",
     "source": [
         "https://github.com/localsend/localsend/releases",
