@@ -170,6 +170,27 @@
       }
     }
   },
+  {
+    "name": "Chromium",
+    "source":"https://download-chromium.appspot.com",
+    "logo": "images/Chromium.png",
+    "description": "Chromium 是由谷歌（Google）主导开发的开源网页浏览器项目，也是商业浏览器 Google Chrome 的核心基础。它提供了浏览器的大部分核心代码、Blink 渲染引擎以及 V8 引擎。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "x64": "https://download-chromium.appspot.com/dl/Win_x64?type=snapshots", "x86":"https://download-chromium.appspot.com/dl/Win?type=snapshots"}
+      },
+      "macos": {
+        "links": { "intel": "https://download-chromium.appspot.com/dl/Mac?type=snapshots","apple_silicon":"https://download-chromium.appspot.com/dl/Mac_Arm?type=snapshots"}
+      },
+       "android": {
+        "links":{"universal":"https://download-chromium.appspot.com/dl/Android?type=snapshots","arm64":"https://download-chromium.appspot.com/dl/Android_Arm64?type=snapshots"}
+      },
+      "linux":{
+        "links":{"x64":"https://download-chromium.appspot.com/dl/Linux_x64?type=snapshots","x86":"https://download-chromium.appspot.com/dl/Linux?type=snapshots"}
+      }
+    }
+  },
    {
     "name": "Clipy",
     "source": "https://github.com/Clipy/Clipy/releases/",
