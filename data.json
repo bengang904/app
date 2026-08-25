@@ -456,6 +456,9 @@
       },
       "linux":{
         "links":{"x64":"https://download.kde.org/stable/krita/5.3.3/krita-5.3.3-x86_64.AppImage"}
+      },
+      "android":{
+        "links":{"arm32":"https://cdn.kde.org/ci-builds/graphics/krita/master/android-armeabi-v7a/krita-armeabi-v7a-5.4.0-prealpha-32bfa3f8-nightly.apk","arm64":"https://cdn.kde.org/ci-builds/graphics/krita/master/android-arm64-v8a/krita-arm64-v8a-5.4.0-prealpha-32bfa3f8-nightly.apk","x64":"https://cdn.kde.org/ci-builds/graphics/krita/master/android-x86_64/krita-x86_64-5.4.0-prealpha-32bfa3f8-nightly.apk"}
       }
     }
   },
