@@ -438,6 +438,27 @@
       }
     }
   },
+    {
+    "name": "Krita",
+    "source": [
+        "https://cdn.kde.org/ci-builds/graphics/krita/master/",
+        "https://download.kde.org/Attic/krita/"
+    ],
+    "logo": "images/Krita.png",
+    "description": "Krita 是一款非常强大且完全开源、免费的专业数字绘画与 2D 动画软件。",
+    "platforms": {
+      "windows": {
+        "supported_versions": ["10", "11"],
+        "links": { "x64":"https://download.kde.org/stable/krita/5.3.3/krita-x64-5.3.3-setup.exe","x64-Portable":"https://download.kde.org/stable/krita/5.3.3/krita-x64-5.3.3.zip"}
+      },
+      "macos":{
+        "links":{"universal":"https://download.kde.org/stable/krita/5.3.3/krita-5.3.3-signed.dmg"}
+      },
+      "linux":{
+        "links":{"x64":"https://download.kde.org/stable/krita/5.3.3/krita-5.3.3-x86_64.AppImage"}
+      }
+    }
+  },
   {
     "name": "LibreOffice",
     "source": [
